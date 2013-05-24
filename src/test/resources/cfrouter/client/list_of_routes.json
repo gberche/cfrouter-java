@@ -1,0 +1,12 @@
+[
+    {
+        "host": "host1",
+        "port": 9004,
+        "uris": ["uri1"]
+    },
+    {
+        "host": "host2",
+        "port": 9220,
+        "uris": ["uri2", "uri3"]
+    }
+]

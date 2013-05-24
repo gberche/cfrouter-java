@@ -1,0 +1,41 @@
+{"type": "Router",
+    "index": 0,
+    "host": "10.114.6.104:8082",
+    "credentials": ["", ""],
+    "config": {
+        "Status": {
+            "Port": 8082,
+            "User": "",
+            "Pass": ""
+        },
+        "Nats": {
+            "Uri": "nats://localhost:4222",
+            "Host": "localhost:4222",
+            "User": "",
+            "Pass": ""
+        },
+        "Logging": {
+            "File": "",
+            "Syslog": "",
+            "Level": "debug"
+        },
+        "Port": 8081,
+        "Index": 0,
+        "Pidfile": "",
+        "GoMaxProcs": 8,
+        "TraceKey": "",
+        "AccessLog": "",
+        "PublishStartMessageIntervalInSeconds": 30,
+        "PruneStaleDropletsIntervalInSeconds": 30,
+        "DropletStaleThresholdInSeconds": 31536000,
+        "PublishActiveAppsIntervalInSeconds": 0,
+        "PublishStartMessageInterval": 30000000000,
+        "PruneStaleDropletsInterval": 30000000000,
+        "DropletStaleThreshold": 31536000000000000,
+        "PublishActiveAppsInterval": 0,
+        "Ip": "10.114.6.104"
+    },
+    "uuid": "0-94d23d8e6caf1ed1773a78657404e8bb",
+    "start": "2013-04-16 12:47:37 +0200",
+    "uptime": "1d:4h:58m:56s"
+}

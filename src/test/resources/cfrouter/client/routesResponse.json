@@ -1,0 +1,4 @@
+{
+    "route2.myrouter.mydomain.com": ["host2:8080"],
+    "route1.myrouter.mydomain.com": ["host1:80", "10.114.6.195:8000"]
+}

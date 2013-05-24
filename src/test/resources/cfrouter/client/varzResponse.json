@@ -1,0 +1,70 @@
+{
+    "bad_requests": 1,
+    "config": {
+        "AccessLog": "",
+        "DropletStaleThreshold": 3.1536e+16,
+        "DropletStaleThresholdInSeconds": 3.1536e+07,
+        "GoMaxProcs": 8,
+        "Index": 0,
+        "Ip": "10.114.6.104",
+        "Logging": {
+            "File": "",
+            "Level": "debug",
+            "Syslog": ""
+        },
+        "Nats": {
+            "Host": "localhost:4222",
+            "Pass": "",
+            "Uri": "nats://localhost:4222",
+            "User": ""
+        },
+        "Pidfile": "",
+        "Port": 8081,
+        "PruneStaleDropletsInterval": 3e+10,
+        "PruneStaleDropletsIntervalInSeconds": 30,
+        "PublishActiveAppsInterval": 0,
+        "PublishActiveAppsIntervalInSeconds": 0,
+        "PublishStartMessageInterval": 3e+10,
+        "PublishStartMessageIntervalInSeconds": 30,
+        "Status": {
+            "Pass": "",
+            "Port": 8082,
+            "User": ""
+        },
+        "TraceKey": ""
+    }, "cpu": 0,
+    "credentials": ["", ""],
+    "droplets": 7,
+    "host": "10.114.6.104:8082",
+    "index": 0,
+    "latency": {
+        "50": 0.0182665,
+        "75": 0.05908225,
+        "90": 0.3971016,
+        "95": 1.2799558499999972,
+        "99": 21.00002549,
+        "samples": 1,
+        "value": 5e-07
+    },
+    "mem": 9696,
+    "num_cores": 1,
+    "rate": [0.003032504913207889, 0.025620670857034077, 0.03751623611289008],
+    "requests": 520,
+    "requests_per_sec": 0.003032504913207889,
+    "responses_2xx": 405,
+    "responses_3xx": 37,
+    "responses_4xx": 0,
+    "responses_5xx": 0,
+    "responses_xxx": 78,
+    "start": "2013-04-16 12:47:37 +0200",
+    "tags": {
+        "component": {},
+        "framework": {},
+        "runtime": {}
+    },
+    "top10_app_requests": null,
+    "type": "Router",
+    "uptime": "1d:5h:27m:0s",
+    "urls": 4,
+    "uuid": "0-94d23d8e6caf1ed1773a78657404e8bb"
+}
