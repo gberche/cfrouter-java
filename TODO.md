@@ -1,11 +1,8 @@
 - Contribute cfrouter-java to the community
-   - change commit emails to avoid spam
-   - push on github
-   - send email to mailing list
    - setup maven release process
    - consider building from sonatype to be published on maven central or checkout from github on our jenkins + local build
 
-- clean up the exceptions thrown in the interface. Some are parasites.
+- clean up the exceptions thrown by the Router interface. Some are parasites.
 
 - add support for router clusters of size >1: return list of metrics, list of routes, ...
 
