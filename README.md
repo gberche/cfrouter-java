@@ -8,6 +8,8 @@
 A Java client for the [CloudFoudry gorouter](https://github.com/cloudfoundry/gorouter) which allows to set/get/reset
 the routes, look up the metrics. It also includes a test suite that validates some of the gorouter behavior.
 
+Aug 2013 update: this repo has moved to https://github.com/Orange-OpenSource/cfrouter-java
+
 ## Getting started
 
 To use the basic client in your project, add the following to your Maven pom.xml:
